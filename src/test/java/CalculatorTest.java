@@ -13,7 +13,7 @@ public class CalculatorTest {
     @Test
     public void shouldReturn0When1Sub1() {
         Calculator calculator = new Calculator();
-        int actualResult = calculator.compute(1, 1, '0');
+        int actualResult = calculator.compute(1, 1, '-');
         int expectedResult = 0;
         Assert.assertEquals(expectedResult, actualResult);
     }
